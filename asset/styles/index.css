@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Merri";
+  src: url(../font/Merriweather-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Merri";
+}
+
+img {
+  display: block;
+}
+
+body {
+  height: 100vh;
+}
+body p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+body h1,
+body h2,
+body h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+body h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid black;
+  color: black;
+  background: white;
+  text-transform: uppercase;
+}
+button:hover {
+  color: whitesmoke;
+  background: black;
+  border: 1px solid whitesmoke;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  background: url(../images/bg.jpg) center/cover fixed;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header .tittle {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+header .tittle h1,
+header .tittle p,
+header .tittle div {
+  text-align: center;
+  padding: 10px 0;
+  line-height: 50px;
+}
+header .tittle i {
+  border: 1px solid white;
+  border-radius: 9999px;
+  padding: 10px 15px;
+}
+header nav {
+  bottom: 0;
+  position: absolute;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 35px 20px;
+  background: rgba(255, 255, 255, 0.418);
+}
+header nav ul {
+  font-weight: 700;
+  font-size: 0.7rem;
+  position: relative;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+header nav ul i {
+  font-size: 1rem;
+}
+header nav .left {
+  width: 40%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 10%;
+  left: 0;
+  -webkit-transform: translatey(-10%);
+          transform: translatey(-10%);
+}
+header nav .left li {
+  padding: 15px 15px;
+}
+header nav .right {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header nav .right li {
+  padding: 15px 25px;
+}
+
+.section-1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+}
+.section-1 .text {
+  padding: 50px 0;
+}
+.section-1 .text h1,
+.section-1 .text p {
+  padding: 20px;
+}
+.section-1 .text button {
+  margin-top: 30px;
+}
+.section-1 img {
+  width: 100%;
+}
+.section-1 div:first-child {
+  position: relative;
+  padding: 30px;
+}
+.section-1 div:first-child p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.section-1 div:first-child::after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.section-1 div:first-child::before {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}/*# sourceMappingURL=index.css.map */

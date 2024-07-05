@@ -1,0 +1,76 @@
+@use "../layout/variable";
+
+header {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  background: url(../images/bg.jpg) center/cover fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .tittle {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    h1,
+    p,
+    div {
+      text-align: center;
+      padding: 10px 0;
+      line-height: 50px;
+    }
+    i {
+      border: 1px solid white;
+      border-radius: 9999px;
+      padding: 10px 15px;
+    }
+  }
+  nav {
+    bottom: 0;
+    position: absolute;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 20px;
+    background: rgba(255, 255, 255, 0.418);
+    ul {
+      font-weight: 700;
+      font-size: 0.7rem;
+      position: relative;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      text-transform: uppercase;
+      i {
+        font-size: 1rem;
+      }
+    }
+    .left {
+      width: 40%;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      bottom: 10%;
+      left: 0;
+      transform: translatey(-10%);
+      li {
+        padding: 15px 15px;
+      }
+    }
+    .right {
+      position: absolute;
+      bottom: 10%;
+      right: 0;
+      transform: translateY(-10%);
+      display: flex;
+      justify-content: space-between;
+      li {
+        padding: 15px 25px;
+      }
+    }
+  }
+}
