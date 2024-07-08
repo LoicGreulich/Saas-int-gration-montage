@@ -1,5 +1,4 @@
-@use "../layout/variable";
-@use "../layout/body";
-@use "../components/button";
-@use "../layout/header";
-@use "../layout/section";
+@use "./layout/settings";
+@use "./layout/header";
+@use "./layout/main";
+@use "./layout/footer";
